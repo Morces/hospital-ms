@@ -36,7 +36,8 @@ flex-direction: column;
 flex-wrap: wrap;
 width: 20%;
 margin: 20px;
-height: 50vh;
+height: 60vh;
+float: left;
 }
 p#p1 {
 background-color: green;
