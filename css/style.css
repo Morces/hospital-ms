@@ -4,6 +4,8 @@ background-color: green;
 .container {
 background-color: white;
 height: 100vh;
+margin-top: 10px;
+margin-right: 20px;
 }
 img {
 height: 100px;
@@ -26,4 +28,28 @@ color: white;
 hr {
 margin-top: 0px;
 background-color: green;
+}
+.side {
+border: 1px dashed #76B947;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: 20%;
+margin: 20px;
+height: 50vh;
+}
+p#p1 {
+background-color: green;
+margin: 4px;
+text-align: center;
+margin-bottom: 30px;
+color: white;
+}
+p#p2 {
+background-color: green;
+margin: 2px;
+}
+p#p2 a {
+color: white;
+margin-left: 5px;
 }
