@@ -7,10 +7,17 @@ height: 100vh;
 margin-top: 10px;
 margin-right: 20px;
 }
-img {
+.images {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 120px;
+margin-top: 10px;
+}
+img.flower {
 height: 100px;
-width: 100%;
-margin-top: 15px;
+width: 70%;
+float: right;
 }
 .navbar ul {
 list-style: none;
