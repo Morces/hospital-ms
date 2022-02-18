@@ -54,3 +54,23 @@ p#p2 a {
 color: white;
 margin-left: 5px;
 }
+.content {
+text-align: center;
+float: right;
+width: 60%;
+background-color: #B1D8B7;
+}
+h1 {
+font-family: 'poppins';
+font-weight: 800;
+font-style: italic;
+color: green;
+}
+small {
+font-size: medium;
+font-weight: 700;
+}
+.content p {
+line-height: 2px;
+margin-top: 10px;
+}
