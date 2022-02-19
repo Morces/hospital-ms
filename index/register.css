@@ -1,7 +1,11 @@
+body{
+display: grid;
+}
 .container {
 border: 1px solid black;
 width: 50%;
 height: 500px;
+margin: auto;
 }
 h3 {
 background-color: #B9B7BD;
