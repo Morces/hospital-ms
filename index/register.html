@@ -21,14 +21,21 @@
       <input type="text" id="sname" name="sname" required><br>
       <label for="dob">Date of Birth</label>
       <input type="date" id="dob" name="dob" required><br>
-      <select name="two" id="two">
       <label for="gender">Gender</label>
-      <option value="choose">Gender</option><br>
+      <select name="two" id="two">
+      <option value="choose">Gender</option>
       <option value="male">Male</option>
-      <option value="female">Female</option><br>
+      <option value="female">Female</option>
+      <option value="Bi-sexual">Bi-sexual</option>
+      </select><br>
       <label for="county">County</label>
+      <select name="county" id="county">
       <option value="Nairobi">Nairobi</option>
-      </select>
+      </select><br>
+      <div class="btns">
+        <input type="button" method="post" id="btn" value="Send">
+        <input type="button" id="btn" value="Clear">
+      </div>
     </form>
   </div>
 </body>
